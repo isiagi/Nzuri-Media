@@ -28,6 +28,7 @@ export function NavbarComponent() {
               <NavLink href="/about">About</NavLink>
               <NavLink href="/services">Services</NavLink>
               <NavLink href="/contact">Contact</NavLink>
+              <NavLink href="/works">Works</NavLink>
             </div>
           </div>
           <div className="md:hidden">

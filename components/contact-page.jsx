@@ -31,7 +31,7 @@ export function ContactPageComponent() {
       <div className="container mx-auto px-4 py-16">
         <div className="grid md:grid-cols-2 gap-12 mb-16">
           <div className="space-y-8">
-            <h2 className="text-2xl font-semibold mb-4 text-purple-700">
+            <h2 className="text-2xl font-semibold mb-4 text-black">
               Our Services
             </h2>
             <div className="grid grid-cols-2 gap-4">
@@ -59,7 +59,7 @@ export function ContactPageComponent() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-semibold mb-4 text-purple-700">
+            <h2 className="text-2xl font-semibold mb-4 text-black">
               Get in Touch
             </h2>
             <form className="space-y-4">
@@ -67,7 +67,7 @@ export function ContactPageComponent() {
               <Input type="email" placeholder="Your Email" />
               <Input placeholder="Subject" />
               <Textarea placeholder="Your Message" className="h-32" />
-              <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white">
+              <Button className="w-full bg-black hover:bg-black text-white">
                 Send Message
               </Button>
             </form>
@@ -75,10 +75,8 @@ export function ContactPageComponent() {
         </div>
 
         <div className="text-center">
-          <h2 className="text-2xl font-semibold mb-4 text-purple-700">
-            Visit Us
-          </h2>
-          <p className="text-gray-600">123 Creative Avenue, Nairobi, Kenya</p>
+          <h2 className="text-2xl font-semibold mb-4 text-black">Visit Us</h2>
+          <p className="text-gray-600">12a Luwum St, Kampala, Uganda</p>
           <p className="text-gray-600">Phone: +254 123 456 789</p>
           <p className="text-gray-600">Email: hello@nzurimediaagency.com</p>
         </div>
