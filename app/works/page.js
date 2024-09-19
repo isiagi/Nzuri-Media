@@ -45,14 +45,14 @@ function page() {
       </div>
 
       <div>
-        <Tabs defaultValue="account" className="w-full grid">
+        <Tabs defaultValue="Photos" className="w-full grid">
           <TabsList className="justify-self-center my-5">
-            <TabsTrigger value="account">Photos</TabsTrigger>
-            <TabsTrigger value="password">Graphics</TabsTrigger>
-            <TabsTrigger value="password">Adverts</TabsTrigger>
-            <TabsTrigger value="password">Branding</TabsTrigger>
+            <TabsTrigger value="Photos">Photos</TabsTrigger>
+            <TabsTrigger value="Graphics">Graphics</TabsTrigger>
+            <TabsTrigger value="Adverts">Adverts</TabsTrigger>
+            <TabsTrigger value="Branding">Branding</TabsTrigger>
           </TabsList>
-          <TabsContent value="account">
+          <TabsContent value="Photos">
             <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-8">
               <LightGallery
                 onInit={onInit}
