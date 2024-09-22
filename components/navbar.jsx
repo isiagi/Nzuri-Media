@@ -25,10 +25,10 @@ export function NavbarComponent() {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               <NavLink href="/">Home</NavLink>
+              <NavLink href="/works">Works</NavLink>
               <NavLink href="/about">About</NavLink>
               <NavLink href="/services">Services</NavLink>
               <NavLink href="/contact">Contact</NavLink>
-              <NavLink href="/works">Works</NavLink>
             </div>
           </div>
           <div className="md:hidden">
@@ -52,6 +52,9 @@ export function NavbarComponent() {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <NavLink href="/" mobile>
               Home
+            </NavLink>
+            <NavLink href="/works" mobile>
+              Works
             </NavLink>
             <NavLink href="/about" mobile>
               About

@@ -19,7 +19,7 @@ import Link from "next/link";
 export function AboutUsPageComponent() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-purple-50 to-white">
-      <header className="relative bg-purple-900 text-white py-20 overflow-hidden">
+      <header className="relative h-[400px] bg-purple-900 text-white py-20 flex items-center overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
           alt="Nzuri Media Agency Team"
@@ -44,21 +44,21 @@ export function AboutUsPageComponent() {
           </h2>
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <p className="text-lg mb-4">
+              <p className="text-lg mb-4 text-gray-600">
                 Founded in 2015, Nzuri Media Agency emerged from a passion for
                 creativity and a vision to transform the media landscape in East
                 Africa. Our journey began with a small team of dedicated
                 professionals who believed in the power of innovative
                 storytelling and strategic branding.
               </p>
-              <p className="text-lg mb-4">
+              <p className="text-lg mb-4 text-gray-600">
                 Over the years, we&apos;ve grown into a full-service agency,
                 expanding our expertise across various media disciplines. Our
                 commitment to excellence and our client-centric approach have
                 allowed us to build lasting partnerships with brands across
                 diverse industries.
               </p>
-              <p className="text-lg">
+              <p className="text-lg text-gray-600">
                 Today, Nzuri Media Agency stands as a beacon of creativity and
                 strategic thinking, continuously pushing boundaries and setting
                 new standards in the world of media and marketing.

@@ -23,7 +23,7 @@ import Image from "next/image";
 export function ServicesPageComponent() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-purple-50 to-white">
-      <header className="relative bg-purple-900 text-white py-20 overflow-hidden">
+      <header className="relative h-[400px] flex items-center bg-purple-900 text-white py-20 overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
           alt="Nzuri Media Agency Services"

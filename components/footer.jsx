@@ -89,7 +89,7 @@ export function FooterComponent() {
             <ul className="space-y-2">
               <li className="flex items-center">
                 <MapPin size={16} className="mr-2" />
-                123 Creative Avenue, Nairobi, Kenya
+                12a Luwum St, Kampala, Uganda
               </li>
               <li className="flex items-center">
                 <Phone size={16} className="mr-2" />
