@@ -34,7 +34,7 @@ export default function HeroSection() {
               <Camera className="h-10 w-10 mb-2 text-blue-400" />
               <h2 className="text-2xl font-semibold">Photography</h2>
               <p className="text-sm text-gray-300">
-                Capture your brand's essence
+                Capture your brand&apos;s essence
               </p>
             </div>
           </div>
